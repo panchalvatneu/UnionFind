@@ -199,9 +199,9 @@ public class UF_HWQUPC implements UF {
 
         int root = parent[i];
         while (i != root) {
-            int newp = parent[i];
+            int newi = parent[i];
             parent[i] = root;
-            i = newp;
+            i = newi;
         }
 
 
